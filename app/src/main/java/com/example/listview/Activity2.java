@@ -23,7 +23,7 @@ public class Activity2 extends ListActivity {
             @Override
             public void onItemClick(AdapterView<?> listView, View itemView, int position, long id) {
                 Intent intent = new Intent(Activity2.this,DrinkActivity.class);
-                intent.putExtra("index", position);
+                intent.putExtra("drinkNo", position);
                 startActivity(intent);
             }
         };
