@@ -38,7 +38,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             insertDrink(db, "Cappuccino", "Espresso, hot milk and steamed-milk foam");
             insertDrink(db, "Filter", "Our best drip coffee");
         }
-        if(oldversion<2)
+        if(oldversion < 2)
         {
             db.execSQL("ALTER TABLE DRINK ADD COLUMN FAVOURITE NUMERIC");
         }

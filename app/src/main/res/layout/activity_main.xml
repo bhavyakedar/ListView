@@ -11,18 +11,22 @@
 
         <ListView
             android:id="@+id/list"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:entries="@array/options"/>
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
             android:layout_gravity="center_horizontal"
-            android:textSize="50dp"
-            android:text="**"/>
+            android:textSize="14dp"
+            android:text="Your Favourite Drinks :"/>
+        <ListView
+            android:id="@+id/list_favourite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         </LinearLayout>
 
